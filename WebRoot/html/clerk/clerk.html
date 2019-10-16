@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>添加</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="../../js/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="../../js/themes/icon.css">
+	<script type="text/javascript" src="../../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../../js/jquery.easyui.min.js"></script>
+</head>
+<script type="text/javascript">
+$(function(){
+	$("#Search").click(function(){
+		var dialog = $('#demo_div');
+ 		dialog.dialog({
+    	 title:'個人情報の検索',
+     	modal:true,
+     	closed:false,
+   	 	width:400,
+   	 	height:300,
+     	buttons:[{
+         text:'検索',
+
+     },{
+         text:'关闭',
+         handler:function(){
+             dialog.dialog('close');
+         }
+     }]
+ });
+});
+})
+</script>
+<body>
+<div>
+<table class="easyui-datagrid" style="width:1100px;height:600px"
+    data-options="fitColumns:true,singleSelect:true"toolbar="#tb">
+    <thead>
+		<tr>
+			<th data-options="field:'ck',checkbox: true"></th>	
+			<th data-options="field:'userid',width:60,align:'center'">社员id</th>
+			<th data-options="field:'name',width:50,align:'center'">名前</th>
+			<th data-options="field:'gender',width:50,align:'center'">性别</th>
+			<th data-options="field:'age',width:90,align:'center'">生年月日</th>
+			<th data-options="field:'mailbox',width:90,align:'center'">メールボックス</th>
+			<th data-options="field:'phone',width:90,align:'center'">電話</th>
+			<th data-options="field:'address',width:120,align:'center'">住所</th>
+			<th data-options="field:'is_admin',width:90,align:'center'">緊急連絡先</th>
+			<th data-options="field:'is_admin',width:90,align:'center'">緊急連絡先電話</th>
+			<th data-options="field:'is_admin',width:100,align:'center'">レベル</th>
+
+		</tr>
+    </thead>
+</table>
+</div>
+<div id="tb">
+	<a href="clerkadd.html" class="easyui-linkbutton" iconCls="icon-add" plain="true" id="add">追加</a>
+	<a href="#" class="easyui-linkbutton" iconCls="icon-remove" plain="true" id="del">削除</a>
+	<a href="#" class="easyui-linkbutton" iconCls="icon-edit" plain="true" id="update">変更</a>
+	<a href="#" class="easyui-linkbutton" iconCls="icon-search" plain="true" id="Search">クエリー</a>
+</div>
+
+<div id="demo_div">
+<form action="" id="demo_form">
+					<table>
+<tr>
+<td width="15%" align="right" style="padding-right:10px;">ID</td>
+<td>
+<input class="easyui-textbox" name="id" style="width:250px;height:34px">
+</td>
+</tr>
+<tr>
+<td width="15%" align="right" style="padding-right:10px;">名前</td>
+<td>
+<input class="easyui-textbox" name="name" style="width:250px;height:34px">
+</td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>

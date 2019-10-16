@@ -1,0 +1,51 @@
+{
+    "status": 0,
+    "total": null,
+    "message": "获取成功",
+    "rows": [
+        {
+            "fid": "a7a66bb2adc8abd5871d26b87987457f",
+            "cdnflag": null,
+            "mp4fid": "5784abf655e136c28d759648ea03f5d5",
+            "mediumlong": null,
+            "cpid": "100010",
+            "format": null,
+            "published": "1",
+            "title": "测试节目4",
+            "url": "http://58.82.211.108:3580/uid$140705648/stamp$1540451871/keyid$67141632/auth$4faf924051e757a66c13f45769010b75/cdn$0/a7a66bb2adc8abd5871d26b87987457f.m3u8?ext=v:1.4,btime:0,etime:0;oid:,f:1,p:1,code:,eid:,m:,aid:&bke=&type=get_m3u8&host=cdn3rd8gxyvod.voole.com&port=8090&is3d=0&proto=7&isp2p=0&hid=vht90h1805340329"
+        },
+        {
+            "fid": "0d78c81bb65081b428ae1d3caefa8b9a",
+            "cdnflag": null,
+            "mp4fid": "5784abf655e136c28d759648ea03f5d5",
+            "mediumlong": null,
+            "cpid": "100010",
+            "format": null,
+            "published": "1",
+            "title": "测试节目3",
+            "url": "http://58.82.211.108:3580/uid$140705648/stamp$1540451871/keyid$67141632/auth$4faf924051e757a66c13f45769010b75/cdn$0/0d78c81bb65081b428ae1d3caefa8b9a.m3u8?ext=v:1.4,btime:0,etime:0;oid:,f:1,p:1,code:,eid:,m:,aid:&bke=&type=get_m3u8&host=cdn3rd8gxyvod.voole.com&port=8090&is3d=0&proto=7&isp2p=0&hid=vht90h1805340329"
+        },
+        {
+            "fid": "853946ea33b4373cb9508983c95c4c35",
+            "cdnflag": null,
+            "mp4fid": "5784abf655e136c28d759648ea03f5d5",
+            "mediumlong": null,
+            "cpid": "100010",
+            "format": null,
+            "published": "1",
+            "title": "测试节目1",
+            "url": "http://58.82.211.108:3580/uid$140705648/stamp$1540451871/keyid$67141632/auth$4faf924051e757a66c13f45769010b75/cdn$0/853946ea33b4373cb9508983c95c4c35.m3u8?ext=v:1.4,btime:0,etime:0;oid:,f:1,p:1,code:,eid:,m:,aid:&bke=&type=get_m3u8&host=cdn3rd8gxyvod.voole.com&port=8090&is3d=0&proto=7&isp2p=0&hid=vht90h1805340329"
+        },
+        {
+            "fid": "c9c1d3d04fa2e4ffbc43b8ef6fc0b22c",
+            "cdnflag": null,
+            "mp4fid": "c9c1d3d04fa2e4ffbc43b8ef6fc0b22c",
+            "mediumlong": null,
+            "cpid": "100010",
+            "format": null,
+            "published": "1",
+            "title": "测试节目2",
+            "url": "http://58.82.211.108:3580/uid$140705648/stamp$1540451871/keyid$67141632/auth$4faf924051e757a66c13f45769010b75/cdn$0/c9c1d3d04fa2e4ffbc43b8ef6fc0b22c.m3u8?ext=v:1.4,btime:0,etime:0;oid:,f:1,p:1,code:,eid:,m:,aid:&bke=&type=get_m3u8&host=cdn3rd8gxyvod.voole.com&port=8090&is3d=0&proto=7&isp2p=0&hid=vht90h1805340329"
+        }
+    ]
+}
